@@ -1,0 +1,17 @@
+.Main{
+    position: relative;
+    height: 22rem;
+    background-color: aliceblue;
+}
+.Dolist{
+    height : 2rem
+}
+
+.DeleteBtn{
+    position: absolute;
+    right: 1rem;
+    background-color: cornflowerblue;
+    padding: 3px;
+    border-radius: 10%;
+    
+}

@@ -1,0 +1,16 @@
+.Header{
+    position: relative;
+    background-color: rgb(88, 226, 254);
+    height: 3rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.Filters{
+    position: absolute;
+    top: 10px;
+    right: 3px;
+}
+.Filter{
+    padding : 10px;
+}
