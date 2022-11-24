@@ -2,9 +2,12 @@
     position: relative;
     height: 22rem;
     background-color: aliceblue;
+    padding: 5px;
+    
 }
 .Dolist{
-    height : 2rem
+    height : 2rem;
+    
 }
 
 .DeleteBtn{
@@ -14,4 +17,22 @@
     padding: 3px;
     border-radius: 10%;
     
+}
+.DeleteBtn:hover{
+    opacity: 0.8;
+}
+.conpletedBtn{
+    position: absolute;
+    right: 3.5rem;
+    background-color: cornflowerblue;
+    padding: 3px;
+    border-radius: 10%;
+}
+.conpletedBtn:hover{
+    opacity: 0.8;
+}
+.saveBtn{
+    position: absolute;
+    bottom: 3px;
+    left: 10rem;
 }

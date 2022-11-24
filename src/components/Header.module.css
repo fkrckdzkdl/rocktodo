@@ -10,7 +10,19 @@
     position: absolute;
     top: 10px;
     right: 3px;
+    
 }
-.Filter{
-    padding : 10px;
+.Mode{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background-color: black;
+    color: white;
+    width: 5rem;
+    border-radius: 10%;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+.Mode:hover{
+    opacity: 0.7;
 }
