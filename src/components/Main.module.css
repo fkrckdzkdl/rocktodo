@@ -1,7 +1,8 @@
 .Main{
     position: relative;
-    height: 22rem;
-    background-color: aliceblue;
+    height: 23rem;
+    background: rgb(254,254,254);
+    background: linear-gradient(0deg, rgba(254,254,254,1) 0%, rgba(245,229,229,0.8239670868347339) 42%, rgba(48,167,191,1) 100%); 
     padding: 5px;
     
 }
@@ -16,7 +17,7 @@
     background-color: cornflowerblue;
     padding: 3px;
     border-radius: 10%;
-    
+    font-weight: bolder;
 }
 .DeleteBtn:hover{
     opacity: 0.8;
@@ -27,6 +28,7 @@
     background-color: cornflowerblue;
     padding: 3px;
     border-radius: 10%;
+    font-weight: bolder;
 }
 .conpletedBtn:hover{
     opacity: 0.8;
@@ -35,4 +37,12 @@
     position: absolute;
     bottom: 3px;
     left: 10rem;
+}
+.title{
+    width: 25rem;
+    position: absolute;
+    top: 15rem;
+    left: 6rem;
+    font-size: 2.5rem;
+    opacity: 0.3;
 }

@@ -52,17 +52,10 @@ function Main({onclickSaveBtn}) {
       }
     }, [viewState, todos]);
     
-    // todos.map((todo,index)=>
-    //   (
-    //   <div className={styles.Dolist} key={index}><input type='checkbox' value={index} />
-    //    <span>{todo.title}</span>
-    //    <button className={styles.DeleteBtn}>삭제</button>
-    //    </div>
-    //   )
-    //   )
-    
     return (
       <div className={styles.Main} style={blckMode}>
+        
+      <div className={styles.title}>JUST DO IT</div>
         {todoList}
         <button className={styles.saveBtn} onClick={()=>onclickSaveBtn()}>저장하기</button>
       </div>

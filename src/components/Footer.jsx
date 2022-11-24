@@ -34,7 +34,7 @@ function Footer() {
          type='textfeild'
          onChange={(event)=>{HandleChange(event.target.value)}}
          onKeyUp={(event)=>{if(event.key==="Enter") handleAdd()}}/>
-        <button className={styles.AddBtn} onClick={()=>handleAdd()}>add</button>
+        <button className={styles.AddBtn} onClick={()=>handleAdd()}>추가</button>
       </div>
     );
   }

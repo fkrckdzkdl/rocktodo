@@ -1,6 +1,7 @@
 .Header{
     position: relative;
-    background-color: rgb(88, 226, 254);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 24%, rgba(0,212,255,1) 100%);
     height: 3rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -25,4 +26,15 @@
 }
 .Mode:hover{
     opacity: 0.7;
+}
+button{
+outline: none;
+border: none;
+opacity: 0.7;
+border-radius: 10px;
+background-color: transparent;
+text-transform: capitalize;
+}
+button:hover{
+    opacity: 0.9;
 }
